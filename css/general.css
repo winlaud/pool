@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-image:url(../images/images.jpeg);
+}
+
+body {
+	background-color:#FFF;
+	padding:.5em;
+}
+
+img {
+	width: 100%;
+}
+
+nav img {
+	display:block;
+	width: 20%;
+	margin: 0 auto;
+	padding-bottom: 2%;
+}
+
+h1,
+h2 {
+	font-size:2.5em;
+	font-family: 'Mouse Memoirs', sans-serif;
+	color:#006;
+}
+
+h2 {
+	font-size:1.5em;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+p {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+ol,
+ul {
+	font-family:Tahoma, Geneva, sans-serif;
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+}
+
+ol li:first-child,
+dl dt:first-child {
+	font-size:1.5em;
+	color:#06F;
+}
+
+dt {
+	font-weight:bold;
+	color:#006;
+}
+
+dd {
+	margin:0;
+	padding:0;
+}
+
+li {
+	font-family:"Times New Roman", Times, serif;
+}
+
+.first {
+	padding-top:1em;
+}
+
+.last {
+	padding-bottom: 1em;
+}
+
+.hideit,
+.hidden {
+	display:none;
+}
+
+nav {
+	list-style-type: none;
+	background-color:#0CF;
+	text-align: center;
+	padding: 3% 0;
+}
+
+nav ul li {
+	display: block;
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size:2em;
+}
+
+nav a,
+nav a:link {
+	display: inline-block;
+	padding:0 3%;
+	color: black;
+	font-size: 1.125em;
+	text-decoration: none;
+}
+
+nav .selected,
+nav .selected:link {
+	color:#FFF;
+}
+
+@media only screen and (min-width: 20em) {
+	ol {
+		display:inline-block;
+		vertical-align:top;
+		width: 45%;
+		margin-right: 3%;
+	}
+
+	.bb {
+		display:none;
+	}
+
+}
+
+@media only screen and (min-width: 25em) {
+	nav ul li {
+		display:inline-block;
+		margin-left: 10%
+	}
+	
+	.hidden {
+		display:block;
+	}
+	
+	.left {
+	float:left;
+	Width: 45%;
+	}
+
+	.right {
+		float:right;
+		Width: 45%;
+	}
+}
+
+@media only screen and (min-width: 35em) {
+	dl {
+		display:inline-block;
+		vertical-align:top;
+		width: 45%;
+		margin-right: 3%;
+	}
+	
+	.space {
+		padding-top:0;
+	}
+}
+
+@media only screen and (min-width: 38em) {
+	ol {
+		width:30%;
+		margin-right: 0;
+	}
+	
+	.youth {
+		width: 37%;
+		padding-right:1%;
+	}
+}
+
+@media only screen and (min-width: 57em) {
+	dl{
+		width:30%;
+	}
+}
+
+@media only screen and (min-width: 65em) {
+	dl {
+		width:20%;
+	}
+	
+	.piccy {
+		width:80%;    
+		position:relative;
+	}
+	
+	html {
+		font-size:120%;
+	}
+}
+
+footer {
+	background-color:#0CF;
+	padding:2%;
+	margin-top:3%;
+}
+
+p a {
+	color:black;
+	text-decoration:underline;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+.button,
+.button:active,
+.button:hover  {
+	background-color:#06F;
+	color:white;
+	width:45%;
+	border-radius:5px;
+	
+	font-size: 1em;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+		
+	margin:0;
+	padding:1em 0;
+
+/*Below is for the first page purposes*/
+	display:inline-block;
+}
+
+.button:active,
+.button:hover {
+	text-decoration:none;
+	background-color:#003;
+	font-weight:bold;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+@media only screen and (min-width: 76em) {
+	html {
+		font-size:150%;
+	}
+	
+	nav {
+		padding: 2% 0;
+	}
+	
+	nav ul li {
+		display: inline-block;
+	}
+		
+	.section {
+		float:right;
+		width: 35%;
+	}
+	
+	.first-story {
+		width: 60%;
+		float:left;
+	}
+	
+	footer {
+		clear:both
+	}
+	
+	.hidden{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+
+	html {
+		font-size:175%;
+	}
+	
+	.piccy {
+		width:40%;
+		padding-right:2%;
+	}
+
+	ol {
+		width:15%;
+		margin:0;			
+	}
+	
+	.youth {
+		width:20%;
+		padding-right:2em;
+	}
+	
+	dl {
+		width: 15%;
+		padding: 1em;
+		margin:0;
+	}
+	
+	.hideit {
+		display:inline-block;
+	}
+}
+
+@media only screen and (min-width: 150em) {
+	html {
+		font-size:200%;
+	}
+}
